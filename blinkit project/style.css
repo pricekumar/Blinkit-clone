@@ -1,0 +1,315 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: scroll;
+}
+
+header {
+    margin-top: 10px;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    gap: 26px;
+    /* working on main axix flex direction* abhi row  mai kaam krega*/
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo {
+    padding: 12px;
+    border-right: 1px solid #ccc;
+    margin-left: 30px;
+
+}
+
+.headerAdd {
+    margin-left: 25px;
+
+}
+
+.headerAdd p {
+    margin-top: -15px;
+    margin-left: 10px;
+    opacity: .6;
+    font-size: 15px;
+}
+
+.header-search {
+    display: flex;
+    flex-grow: 1;
+    /* ye dono milkr space occupy krenge*/
+    border: 1px solid #f4f4f4;
+    border-radius: 10px;
+
+}
+
+.header-search input {
+    border: none;
+    background-color: transparent;
+    background-color: #ebedeb;
+    flex-grow: 1;
+
+    /*eb ye btn ka space chhod kr jitna bhi parent ka space hai bo occupy kr lega*/
+}
+
+.header-search button {
+    padding: 15px;
+    background-color: transparent;
+    background-color: #ebedeb;
+    border: none;
+
+}
+
+.header-search :focus {
+    outline: none;
+    /*esse jo putline ati ha n jb ap click krte hai bo nhi ayegi*/
+}
+
+.header-btn button {
+    font-size: 13px;
+    margin: 10px;
+
+}
+
+.header-btn {
+    display: flex;
+    margin-left: -20px;
+}
+
+button {
+
+    border: none;
+    padding: 12px;
+}
+
+.login {
+    background-color: transparent;
+    color: black;
+}
+
+.buy {
+    border-radius: 7px;
+    background-color: #54b256;
+    color: white;
+    font-weight: bold;
+}
+
+.banner {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.banner img {
+    width: 100%;
+
+}
+
+.banner2 {
+    max-width: 1280px;
+    display: flex;
+    background-color: #ebedeb;
+    margin: auto;
+
+
+}
+
+.banner2 img {
+    width: 30%;
+    padding: 12px;
+}
+
+.banner3 {
+    max-width: 1280px;
+     
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid rgb(50, 26, 26); */
+
+
+}
+
+.banner_img {
+    display: flex;
+    
+    max-width: 120px;
+    max-height: 176px;
+    margin-left: -5px
+}
+
+.banner_img img {
+    width: 122px;
+
+    height: 176px;
+
+
+}
+
+.heading {
+    margin-left: 20px;
+}
+
+.dairy {
+    display: flex;
+    max-width: 1280px;
+    margin: auto;
+
+
+}
+
+.dairy_ele {
+    max-width: 180px;
+    max-height: 294px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    border: 1px solid rgb(198, 189, 189);
+    box-shadow: 3px 3px 3px rgb(198, 189, 189);
+    margin: 4px;
+
+}
+
+.dairy_ele img {
+    height: 140px;
+    width: 140px;
+    background-size: cover;
+    /* padding-top: -15px; */
+    padding: 5px 0px 0px 20px;
+}
+
+.dairy_ele_info {
+    display: block;
+    width: 175px;
+    height: 125px;
+    margin-top: -15px;
+}
+
+.dairy_btn {
+    display: flex;
+    margin-top: -30px;
+}
+
+.dairy_ele_info p {
+    font-size: 12px;
+    margin-top: -14px;
+}
+
+.dairy_btn button {
+    align-content: end;
+    background-color: #a2cf95;
+    color: rgb(19, 10, 10);
+    border-radius: 7px;
+    /* padding: 0px 10px 0px 10px; */
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 70px;
+
+}
+
+.rate {
+    padding-top: 25px;
+}
+
+
+
+footer
+{
+    /* display: flex; */
+    max-width: 1280px;
+    margin-top: 40px;
+    margin: auto;
+    
+}
+.footer_main
+{
+    display: flex;
+     
+    
+}
+.footer_left
+{
+    display: flex;
+    font-size: 20px;
+    margin-left: 30px;
+    line-height: 35px;
+  
+}
+.footer_left a
+{
+    
+    text-decoration: none;
+
+}
+.footer_left .list2{
+    padding-left: 160px;
+}
+
+.footer_rigth
+{
+    display: flex;
+     font-size: 20px;
+    margin-left: 30px;
+    line-height: 35px;
+}
+.footer_rigth  ul a
+{
+    text-decoration: dotted;
+}
+.footer_left .list3{
+    padding-left: 160px;
+}
+li{
+    color: black;
+}
+
+.footer_foot1
+{
+    display: flex;
+    justify-content: center;
+    max-width: 1280px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 3px #535050; 
+    background-color:  #e9e1e1; 
+    justify-content: space-around;
+    margin-top: 20px;
+     border-radius: 10px;
+}
+.footer_icons
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.footer_icons img
+{
+    max-width: 90px;
+    max-height: 70px;
+    padding: 15px;
+}
+.footer_icons i{
+    padding: 22px 0 0 12px;
+    font-size: 20px
+}
+.footer_foot2
+{
+    display: flex;
+    padding: 15px;
+}
+li:hover
+{
+transform: scale(1.1);
+color:  #a2cf95;
+border: 1px solid black;
+border-radius: 5px;
+box-shadow: 4px 4px 3px rgb(50, 48, 48);
+}
+.dairy_ele:hover
+{
+    transform: scale(.9);
+}
